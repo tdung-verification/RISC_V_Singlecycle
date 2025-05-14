@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_insn_vld",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[8]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[9]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[10]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[11]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[12]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[13]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[14]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[15]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[16]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[17]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[18]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[19]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[20]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[21]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[22]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[23]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[24]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[25]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[26]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[27]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[28]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[29]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[30]",
+					"strict" : false
+				},
+				{
+					"name" : "o_pc_debug[31]",
+					"strict" : false
+				},
+				{
+					"name" : "i_clk",
+					"strict" : false
+				},
+				{
+					"name" : "i_rst_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,267 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do singlecycle_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Modifying C:/intelFPGA_lite/21.1/questa_fse/win64/modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/branch_comb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:11 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/branch_comb.sv 
+# -- Compiling module branch_comb
+# 
+# Top level modules:
+# 	branch_comb
+# End time: 10:02:12 on Apr 18,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/lsu.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:12 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/lsu.sv 
+# -- Compiling module lsu
+# 
+# Top level modules:
+# 	lsu
+# End time: 10:02:12 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/regfile.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:12 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 10:02:13 on Apr 18,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/alu.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:13 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 10:02:13 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/immgen.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:13 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/immgen.sv 
+# -- Compiling module immgen
+# 
+# Top level modules:
+# 	immgen
+# End time: 10:02:13 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/alu_control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:13 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/alu_control.sv 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 10:02:13 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/control_unit.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:13 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 10:02:13 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/mux3to1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:14 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/mux3to1.sv 
+# -- Compiling module mux3to1
+# 
+# Top level modules:
+# 	mux3to1
+# End time: 10:02:14 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:14 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle.sv 
+# -- Compiling module singlecycle
+# 
+# Top level modules:
+# 	singlecycle
+# End time: 10:02:14 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/program_counter.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:14 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/program_counter.sv 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 10:02:14 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/instmemory.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:14 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/instmemory.sv 
+# -- Compiling module instmemory
+# 
+# Top level modules:
+# 	instmemory
+# End time: 10:02:14 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:02:14 on Apr 18,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv 
+# -- Compiling module singlecycle_tb
+# 
+# Top level modules:
+# 	singlecycle_tb
+# End time: 10:02:14 on Apr 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  singlecycle_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" singlecycle_tb 
+# Start time: 10:02:15 on Apr 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 12, found 7.
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2718) [TFMPC] - Missing connection for port 'o_operandb_test'.
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2718) [TFMPC] - Missing connection for port 'o_operanda_test'.
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2718) [TFMPC] - Missing connection for port 'o_alu_datatest'.
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2718) [TFMPC] - Missing connection for port 'o_pc_debug'.
+# ** Warning: C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(14): (vopt-2718) [TFMPC] - Missing connection for port 'o_insn_vld'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# Loading sv_std.std
+# Loading work.singlecycle_tb(fast)
+# Loading work.singlecycle(fast)
+# Loading work.control_unit(fast)
+# Loading work.alu_control(fast)
+# Loading work.program_counter(fast)
+# Loading work.instmemory(fast)
+# Loading work.regfile(fast)
+# Loading work.immgen(fast)
+# Loading work.branch_comb(fast)
+# Loading work.alu(fast)
+# Loading work.lsu(fast)
+# Loading work.mux3to1(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 clk=0 rst=0 sw=00000000 ledr=00000000 ledg=00000000
+#                    5 clk=1 rst=0 sw=00000000 ledr=00000000 ledg=00000000
+#                   10 clk=0 rst=0 sw=00000000 ledr=00000000 ledg=00000000
+#                   15 clk=1 rst=0 sw=00000000 ledr=00000000 ledg=00000000
+#                   20 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   25 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   30 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   35 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   40 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   45 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   50 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   55 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   60 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   65 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   70 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   75 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   80 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   85 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   90 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                   95 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                  100 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                  105 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                  110 clk=0 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                  115 clk=1 rst=1 sw=00000000 ledr=00000000 ledg=00000000
+#                  120 clk=0 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  125 clk=1 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  130 clk=0 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  135 clk=1 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  140 clk=0 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  145 clk=1 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  150 clk=0 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  155 clk=1 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  160 clk=0 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  165 clk=1 rst=1 sw=aaaaaaaa ledr=00000000 ledg=00000000
+#                  170 clk=0 rst=1 sw=55555555 ledr=00000000 ledg=00000000
+#                  175 clk=1 rst=1 sw=55555555 ledr=00000000 ledg=00000000
+#                  180 clk=0 rst=1 sw=55555555 ledr=00000000 ledg=00000000
+#                  185 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  190 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  195 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  200 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  205 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  210 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  215 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  220 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  225 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  230 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  235 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  240 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  245 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  250 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  255 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  260 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  265 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  270 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  275 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  280 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  285 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  290 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  295 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  300 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  305 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  310 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  315 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  320 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  325 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  330 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  335 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  340 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  345 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  350 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  355 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  360 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  365 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  370 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  375 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  380 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  385 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  390 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  395 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  400 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  405 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  410 clk=0 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+#                  415 clk=1 rst=1 sw=55555555 ledr=55555555 ledg=00000000
+# ** Note: $stop    : C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv(56)
+#    Time: 420 ns  Iteration: 0  Instance: /singlecycle_tb
+# Break in Module singlecycle_tb at C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_1/RISC_Vsinglecycle/singlecycle_tb.sv line 56
+# End time: 10:03:56 on Apr 18,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 6
